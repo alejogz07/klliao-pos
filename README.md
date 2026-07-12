@@ -33,8 +33,8 @@ klliao/
 - [x] Sizes API (full CRUD)
 - [x] Products API (full CRUD)
 - [x] Product Variants API (full CRUD)
+- [x] Stock Entries API (GET all, GET by id, POST with transaction)
 - [ ] Sales API
-- [ ] Stock entries API
 
 ## Seed Data loaded
 - Categories: slushies, drinks, snacks, extras
