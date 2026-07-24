@@ -41,11 +41,15 @@ klliao/
 - Sizes: 12oz, 16oz, 18oz, 22oz, 32oz
 - Products: Slush, DeTodito, Doritos, Choclitos, Aguila Light, Pilsen, Water bottle, Syringe, Watermelon tape, Gummy, Red Lips
 
-### Phase 3 - Frontend - pending
-- [ ] React + Vite setup
-- [ ] Sales registration view
-- [ ] Products management view
-- [ ] Dashboard and reports
+### Phase 3 - Frontend 🔄
+- [x] React + Vite setup
+- [x] Theme context (light/dark mode)
+- [x] Global CSS variables with brand colors
+- [x] Axios services configured
+- [ ] Layout and navigation
+- [ ] POS view
+- [ ] Inventory view
+- [ ] Products view
 
 ## Database Tables
 | Table | Description |
@@ -68,7 +72,16 @@ klliao/
 - **Variants model:** Sizes and flavors handled in `product_variants` to support business growth without restructuring
 
 ## How to Run
+
 ### Backend
 cd backend
-npm run dev
+npm run dev  (or node index.js)
 Server runs at http://localhost:3000
+
+### Reset and seed database
+1. Stop the server
+2. Delete backend/database/kalliao.db
+3. Start the server (regenerates tables)
+4. Stop the server
+5. node database/seed.js
+6. Start the server again
