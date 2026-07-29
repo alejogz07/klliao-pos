@@ -1,0 +1,84 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    height: 60px;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.brand-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    letter-spacing: -0.5px;
+    }
+
+.brand-sub {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-link {
+    padding: 6px 16px;
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: all 0.15s ease;
+}
+
+.nav-link:hover {
+    background-color: var(--surface-hover);
+    color: var(--text-primary);
+}
+
+.nav-link.active {
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 6px 10px;
+    font-size: 1rem;
+    color: var(--text-primary);
+    transition: all 0.15s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--surface-hover);
+}
+
+.main-content {
+    flex: 1;
+    padding: 24px;
+    background-color: var(--bg);
+}

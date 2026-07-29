@@ -46,7 +46,7 @@ klliao/
 - [x] Theme context (light/dark mode)
 - [x] Global CSS variables with brand colors
 - [x] Axios services configured
-- [ ] Layout and navigation
+- [x] Layout and navigation
 - [ ] POS view
 - [ ] Inventory view
 - [ ] Products view
