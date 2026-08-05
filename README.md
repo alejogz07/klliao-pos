@@ -52,7 +52,7 @@ klliao/
 - [x] Layout and navigation (Navbar, React Router)
 - [x] POS view (register sales)
 - [x] Inventory view (register stock entries)
-- [ ] Products view (manage catalog)
+- [x] Products view (manage catalog)
 
 ## Database Tables
 | Table | Description |
