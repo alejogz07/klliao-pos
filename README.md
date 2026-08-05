@@ -50,8 +50,8 @@ klliao/
 - [x] Global CSS variables with brand colors
 - [x] Axios services configured
 - [x] Layout and navigation (Navbar, React Router)
-- [ ] POS view (register sales)
-- [ ] Inventory view (register stock entries)
+- [x] POS view (register sales)
+- [x] Inventory view (register stock entries)
 - [ ] Products view (manage catalog)
 
 ## Database Tables
